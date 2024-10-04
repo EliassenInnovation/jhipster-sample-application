@@ -1,0 +1,22 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200439"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "maxGLNCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "maxManufacturerID",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    }
+  ],
+  "name": "ProductsToUpdate",
+  "relationships": []
+}

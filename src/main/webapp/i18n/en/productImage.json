@@ -1,0 +1,30 @@
+{
+  "dboApp": {
+    "productImage": {
+      "home": {
+        "title": "Product Images",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Product Image",
+        "createOrEditLabel": "Create or edit a Product Image",
+        "search": "Search for Product Image",
+        "notFound": "No Product Images found"
+      },
+      "created": "A new Product Image is created with identifier {{ param }}",
+      "updated": "A Product Image is updated with identifier {{ param }}",
+      "deleted": "A Product Image is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Product Image {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Image"
+      },
+      "id": "ID",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "imageURL": "Image URL",
+      "isActive": "Is Active",
+      "productId": "Product Id",
+      "productImageId": "Product Image Id"
+    }
+  }
+}

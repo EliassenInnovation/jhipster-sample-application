@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200412"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "createdBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "distributorCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "distributorID",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "distributorName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "Distributor",
+  "relationships": []
+}

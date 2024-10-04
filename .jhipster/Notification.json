@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200420"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "content",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "notificationId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "referenceId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Notification",
+  "relationships": []
+}

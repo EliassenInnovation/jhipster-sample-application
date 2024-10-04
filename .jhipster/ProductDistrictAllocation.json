@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200430"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "createdBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "isAllocated",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "productDistrictAllocationId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "schoolDistrictId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "ProductDistrictAllocation",
+  "relationships": []
+}

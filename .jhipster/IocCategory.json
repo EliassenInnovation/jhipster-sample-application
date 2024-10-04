@@ -1,0 +1,22 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200415"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "iocCategoryColor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "iocCategoryId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "iocCategoryName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "IocCategory",
+  "relationships": []
+}

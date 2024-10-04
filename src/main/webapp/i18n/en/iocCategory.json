@@ -1,0 +1,27 @@
+{
+  "dboApp": {
+    "iocCategory": {
+      "home": {
+        "title": "Ioc Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Ioc Category",
+        "createOrEditLabel": "Create or edit a Ioc Category",
+        "search": "Search for Ioc Category",
+        "notFound": "No Ioc Categories found"
+      },
+      "created": "A new Ioc Category is created with identifier {{ param }}",
+      "updated": "A Ioc Category is updated with identifier {{ param }}",
+      "deleted": "A Ioc Category is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ioc Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Ioc Category"
+      },
+      "id": "ID",
+      "iocCategoryColor": "Ioc Category Color",
+      "iocCategoryId": "Ioc Category Id",
+      "iocCategoryName": "Ioc Category Name"
+    }
+  }
+}

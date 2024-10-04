@@ -1,0 +1,28 @@
+{
+  "dboApp": {
+    "stateInfo": {
+      "home": {
+        "title": "State Infos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new State Info",
+        "createOrEditLabel": "Create or edit a State Info",
+        "search": "Search for State Info",
+        "notFound": "No State Infos found"
+      },
+      "created": "A new State Info is created with identifier {{ param }}",
+      "updated": "A State Info is updated with identifier {{ param }}",
+      "deleted": "A State Info is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete State Info {{ id }}?"
+      },
+      "detail": {
+        "title": "State Info"
+      },
+      "id": "ID",
+      "createdOn": "Created On",
+      "isActive": "Is Active",
+      "stateId": "State Id",
+      "stateName": "State Name"
+    }
+  }
+}

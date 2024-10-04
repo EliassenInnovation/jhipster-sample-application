@@ -1,0 +1,34 @@
+{
+  "dboApp": {
+    "productActivityHistory": {
+      "home": {
+        "title": "Product Activity Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Product Activity History",
+        "createOrEditLabel": "Create or edit a Product Activity History",
+        "search": "Search for Product Activity History",
+        "notFound": "No Product Activity Histories found"
+      },
+      "created": "A new Product Activity History is created with identifier {{ param }}",
+      "updated": "A Product Activity History is updated with identifier {{ param }}",
+      "deleted": "A Product Activity History is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Product Activity History {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Activity History"
+      },
+      "id": "ID",
+      "activityId": "Activity Id",
+      "activityType": "Activity Type",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "date": "Date",
+      "isActive": "Is Active",
+      "productId": "Product Id",
+      "suggestedProductId": "Suggested Product Id",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On"
+    }
+  }
+}

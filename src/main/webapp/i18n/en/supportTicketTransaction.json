@@ -1,0 +1,38 @@
+{
+  "dboApp": {
+    "supportTicketTransaction": {
+      "home": {
+        "title": "Support Ticket Transactions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Support Ticket Transaction",
+        "createOrEditLabel": "Create or edit a Support Ticket Transaction",
+        "search": "Search for Support Ticket Transaction",
+        "notFound": "No Support Ticket Transactions found"
+      },
+      "created": "A new Support Ticket Transaction is created with identifier {{ param }}",
+      "updated": "A Support Ticket Transaction is updated with identifier {{ param }}",
+      "deleted": "A Support Ticket Transaction is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Support Ticket Transaction {{ id }}?"
+      },
+      "detail": {
+        "title": "Support Ticket Transaction"
+      },
+      "id": "ID",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "description": "Description",
+      "fileExtension": "File Extension",
+      "fileName": "File Name",
+      "filePath": "File Path",
+      "fileSize": "File Size",
+      "isActive": "Is Active",
+      "isSentByFigSupport": "Is Sent By Fig Support",
+      "lastUpdatedBy": "Last Updated By",
+      "lastUpdatedOn": "Last Updated On",
+      "ticketId": "Ticket Id",
+      "ticketTransactionId": "Ticket Transaction Id",
+      "userId": "User Id"
+    }
+  }
+}

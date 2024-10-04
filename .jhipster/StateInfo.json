@@ -1,0 +1,26 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200445"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "stateId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "stateName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "StateInfo",
+  "relationships": []
+}

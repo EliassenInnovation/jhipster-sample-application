@@ -1,10 +1,13 @@
 # This configuration is intended for development purpose, it's **your** responsibility to harden it for production
-name: jhipstersampleapplication
+name: dbo
 services:
-  postgresql:
+  mssql:
     extends:
-      file: ./postgresql.yml
-      service: postgresql
+      file: ./mssql.yml
+      service: mssql
+    profiles:
+      - ''
+      - prod
   elasticsearch:
     extends:
       file: ./elasticsearch.yml

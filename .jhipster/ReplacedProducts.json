@@ -1,0 +1,38 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200441"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "replacedByUserId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "replacedId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "replacedProductId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "replacementDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "schoolDistrictId",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "ReplacedProducts",
+  "relationships": []
+}

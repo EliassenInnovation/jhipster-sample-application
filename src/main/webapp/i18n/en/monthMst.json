@@ -1,0 +1,28 @@
+{
+  "dboApp": {
+    "monthMst": {
+      "home": {
+        "title": "Month Msts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Month Mst",
+        "createOrEditLabel": "Create or edit a Month Mst",
+        "search": "Search for Month Mst",
+        "notFound": "No Month Msts found"
+      },
+      "created": "A new Month Mst is created with identifier {{ param }}",
+      "updated": "A Month Mst is updated with identifier {{ param }}",
+      "deleted": "A Month Mst is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Month Mst {{ id }}?"
+      },
+      "detail": {
+        "title": "Month Mst"
+      },
+      "id": "ID",
+      "isActive": "Is Active",
+      "monthID": "Month ID",
+      "monthName": "Month Name",
+      "year": "Year"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200427"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "addedSugar",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "addedSugarUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "allergenKeywords",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "brandName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "calories",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "caloriesUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "carbohydrates",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "carbohydratesUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoryId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "cholesterol",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "cholesterolUOM",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "dietaryFiber",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "dietaryFiberUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "distributorId",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "gTIN",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "ingredients",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "iocCategoryId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isMerge",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "manufacturerId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "manufacturerProductCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mergeDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "productLabelPdfUrl",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "productName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "protein",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "proteinUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "saturatedFat",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "serving",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "servingUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sodium",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "sodiumUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "storageTypeId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "subCategoryId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "sugar",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "sugarUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "totalFat",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "transFat",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "uPC",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "vendor",
+      "fieldType": "String"
+    }
+  ],
+  "name": "ProductBeforeApprove",
+  "relationships": []
+}

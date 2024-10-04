@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200437"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "createdBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "isAllocated",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "manufactureId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "productManufacturerAllocationId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "ProductManufacturerAllocation",
+  "relationships": []
+}

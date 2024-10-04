@@ -1,0 +1,47 @@
+{
+  "dboApp": {
+    "userMst": {
+      "home": {
+        "title": "User Msts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User Mst",
+        "createOrEditLabel": "Create or edit a User Mst",
+        "search": "Search for User Mst",
+        "notFound": "No User Msts found"
+      },
+      "created": "A new User Mst is created with identifier {{ param }}",
+      "updated": "A User Mst is updated with identifier {{ param }}",
+      "deleted": "A User Mst is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Mst {{ id }}?"
+      },
+      "detail": {
+        "title": "User Mst"
+      },
+      "id": "ID",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "coverImage": "Cover Image",
+      "createBy": "Create By",
+      "createdOn": "Created On",
+      "email": "Email",
+      "firstName": "First Name",
+      "isActive": "Is Active",
+      "lastName": "Last Name",
+      "manufacturerId": "Manufacturer Id",
+      "mobile": "Mobile",
+      "objectId": "Object Id",
+      "password": "Password",
+      "profileImage": "Profile Image",
+      "roleId": "Role Id",
+      "schoolDistrictId": "School District Id",
+      "state": "State",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "userId": "User Id",
+      "zipCode": "Zip Code"
+    }
+  }
+}

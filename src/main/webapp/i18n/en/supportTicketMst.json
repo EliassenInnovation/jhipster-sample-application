@@ -1,0 +1,40 @@
+{
+  "dboApp": {
+    "supportTicketMst": {
+      "home": {
+        "title": "Support Ticket Msts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Support Ticket Mst",
+        "createOrEditLabel": "Create or edit a Support Ticket Mst",
+        "search": "Search for Support Ticket Mst",
+        "notFound": "No Support Ticket Msts found"
+      },
+      "created": "A new Support Ticket Mst is created with identifier {{ param }}",
+      "updated": "A Support Ticket Mst is updated with identifier {{ param }}",
+      "deleted": "A Support Ticket Mst is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Support Ticket Mst {{ id }}?"
+      },
+      "detail": {
+        "title": "Support Ticket Mst"
+      },
+      "id": "ID",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "email": "Email",
+      "isActive": "Is Active",
+      "isWithOutLogin": "Is With Out Login",
+      "lastUpdatedBy": "Last Updated By",
+      "lastUpdatedOn": "Last Updated On",
+      "priority": "Priority",
+      "schoolDistrictId": "School District Id",
+      "status": "Status",
+      "subject": "Subject",
+      "supportCategoryId": "Support Category Id",
+      "ticketId": "Ticket Id",
+      "ticketReferenceNumber": "Ticket Reference Number",
+      "userId": "User Id",
+      "userName": "User Name"
+    }
+  }
+}

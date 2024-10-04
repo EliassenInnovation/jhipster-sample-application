@@ -1,0 +1,38 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200416"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "forgotPin",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "loginDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "loginLogId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "loginType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "logOutDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "LoginHistory",
+  "relationships": []
+}

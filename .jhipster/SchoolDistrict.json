@@ -1,0 +1,74 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200443"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contractCompany",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "country",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "districtLogo",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "districtName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "foodServiceOptions",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "lastUpdatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "lastUpdatedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "schoolDistrictId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "siteCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "SchoolDistrict",
+  "relationships": []
+}

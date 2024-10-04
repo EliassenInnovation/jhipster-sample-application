@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200411"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "attachmentUrl",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "communityPostId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "communityPostTransactionId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "lastUpdatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "lastUpdatedOn",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "CommunityPostTransactions",
+  "relationships": []
+}

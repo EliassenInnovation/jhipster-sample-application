@@ -1,0 +1,50 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200424"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "activityId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "activityType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "suggestedProductId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "ProductActivityHistory",
+  "relationships": []
+}

@@ -1,0 +1,35 @@
+{
+  "dboApp": {
+    "manufacturer": {
+      "home": {
+        "title": "Manufacturers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Manufacturer",
+        "createOrEditLabel": "Create or edit a Manufacturer",
+        "search": "Search for Manufacturer",
+        "notFound": "No Manufacturers found"
+      },
+      "created": "A new Manufacturer is created with identifier {{ param }}",
+      "updated": "A Manufacturer is updated with identifier {{ param }}",
+      "deleted": "A Manufacturer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Manufacturer {{ id }}?"
+      },
+      "detail": {
+        "title": "Manufacturer"
+      },
+      "id": "ID",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "email": "Email",
+      "firstName": "First Name",
+      "glnNumber": "Gln Number",
+      "isActive": "Is Active",
+      "lastName": "Last Name",
+      "manufacturer": "Manufacturer",
+      "manufacturerId": "Manufacturer Id",
+      "password": "Password",
+      "phoneNumber": "Phone Number"
+    }
+  }
+}

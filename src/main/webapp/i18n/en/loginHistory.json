@@ -1,0 +1,31 @@
+{
+  "dboApp": {
+    "loginHistory": {
+      "home": {
+        "title": "Login Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Login History",
+        "createOrEditLabel": "Create or edit a Login History",
+        "search": "Search for Login History",
+        "notFound": "No Login Histories found"
+      },
+      "created": "A new Login History is created with identifier {{ param }}",
+      "updated": "A Login History is updated with identifier {{ param }}",
+      "deleted": "A Login History is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Login History {{ id }}?"
+      },
+      "detail": {
+        "title": "Login History"
+      },
+      "id": "ID",
+      "forgotPin": "Forgot Pin",
+      "isActive": "Is Active",
+      "loginDate": "Login Date",
+      "loginLogId": "Login Log Id",
+      "loginType": "Login Type",
+      "logOutDate": "Log Out Date",
+      "userId": "User Id"
+    }
+  }
+}

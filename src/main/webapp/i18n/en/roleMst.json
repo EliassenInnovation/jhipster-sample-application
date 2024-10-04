@@ -1,0 +1,32 @@
+{
+  "dboApp": {
+    "roleMst": {
+      "home": {
+        "title": "Role Msts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Role Mst",
+        "createOrEditLabel": "Create or edit a Role Mst",
+        "search": "Search for Role Mst",
+        "notFound": "No Role Msts found"
+      },
+      "created": "A new Role Mst is created with identifier {{ param }}",
+      "updated": "A Role Mst is updated with identifier {{ param }}",
+      "deleted": "A Role Mst is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Role Mst {{ id }}?"
+      },
+      "detail": {
+        "title": "Role Mst"
+      },
+      "id": "ID",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "isActive": "Is Active",
+      "parentRoleId": "Parent Role Id",
+      "roleId": "Role Id",
+      "roleName": "Role Name",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On"
+    }
+  }
+}

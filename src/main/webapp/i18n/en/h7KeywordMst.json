@@ -1,0 +1,28 @@
+{
+  "dboApp": {
+    "h7KeywordMst": {
+      "home": {
+        "title": "H 7 Keyword Msts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new H 7 Keyword Mst",
+        "createOrEditLabel": "Create or edit a H 7 Keyword Mst",
+        "search": "Search for H 7 Keyword Mst",
+        "notFound": "No H 7 Keyword Msts found"
+      },
+      "created": "A new H 7 Keyword Mst is created with identifier {{ param }}",
+      "updated": "A H 7 Keyword Mst is updated with identifier {{ param }}",
+      "deleted": "A H 7 Keyword Mst is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete H 7 Keyword Mst {{ id }}?"
+      },
+      "detail": {
+        "title": "H 7 Keyword Mst"
+      },
+      "id": "ID",
+      "h7Group": "H 7 Group",
+      "h7Keyword": "H 7 Keyword",
+      "h7keywordId": "H 7 Keyword Id",
+      "iocGroup": "Ioc Group"
+    }
+  }
+}

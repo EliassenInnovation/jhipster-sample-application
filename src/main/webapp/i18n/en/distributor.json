@@ -1,0 +1,32 @@
+{
+  "dboApp": {
+    "distributor": {
+      "home": {
+        "title": "Distributors",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Distributor",
+        "createOrEditLabel": "Create or edit a Distributor",
+        "search": "Search for Distributor",
+        "notFound": "No Distributors found"
+      },
+      "created": "A new Distributor is created with identifier {{ param }}",
+      "updated": "A Distributor is updated with identifier {{ param }}",
+      "deleted": "A Distributor is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Distributor {{ id }}?"
+      },
+      "detail": {
+        "title": "Distributor"
+      },
+      "id": "ID",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "distributorCode": "Distributor Code",
+      "distributorID": "Distributor ID",
+      "distributorName": "Distributor Name",
+      "isActive": "Is Active",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On"
+    }
+  }
+}

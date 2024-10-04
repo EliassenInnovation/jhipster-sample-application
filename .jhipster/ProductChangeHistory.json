@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200616"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "createdBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dateCreated",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "historyId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "iocCategoryId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "schoolDistrictId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "selectionType",
+      "fieldType": "String"
+    }
+  ],
+  "name": "ProductChangeHistory",
+  "relationships": []
+}

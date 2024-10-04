@@ -1,0 +1,31 @@
+{
+  "dboApp": {
+    "replacedProducts": {
+      "home": {
+        "title": "Replaced Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Replaced Products",
+        "createOrEditLabel": "Create or edit a Replaced Products",
+        "search": "Search for Replaced Products",
+        "notFound": "No Replaced Products found"
+      },
+      "created": "A new Replaced Products is created with identifier {{ param }}",
+      "updated": "A Replaced Products is updated with identifier {{ param }}",
+      "deleted": "A Replaced Products is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Replaced Products {{ id }}?"
+      },
+      "detail": {
+        "title": "Replaced Products"
+      },
+      "id": "ID",
+      "isActive": "Is Active",
+      "productId": "Product Id",
+      "replacedByUserId": "Replaced By User Id",
+      "replacedId": "Replaced Id",
+      "replacedProductId": "Replaced Product Id",
+      "replacementDate": "Replacement Date",
+      "schoolDistrictId": "School District Id"
+    }
+  }
+}

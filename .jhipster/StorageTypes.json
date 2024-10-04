@@ -1,0 +1,18 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200634"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "storageTypeId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "storageTypeName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "StorageTypes",
+  "relationships": []
+}

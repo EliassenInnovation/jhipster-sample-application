@@ -1,0 +1,33 @@
+{
+  "dboApp": {
+    "productAllergenBak": {
+      "home": {
+        "title": "Product Allergen Baks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Product Allergen Bak",
+        "createOrEditLabel": "Create or edit a Product Allergen Bak",
+        "search": "Search for Product Allergen Bak",
+        "notFound": "No Product Allergen Baks found"
+      },
+      "created": "A new Product Allergen Bak is created with identifier {{ param }}",
+      "updated": "A Product Allergen Bak is updated with identifier {{ param }}",
+      "deleted": "A Product Allergen Bak is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Product Allergen Bak {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Allergen Bak"
+      },
+      "id": "ID",
+      "allergenId": "Allergen Id",
+      "allergenGroup": "Allergen Group",
+      "allergenName": "Allergen Name",
+      "description": "Description",
+      "gTIN": "G TIN",
+      "gTINUPC": "G TINUPC",
+      "productAllergenId": "Product Allergen Id",
+      "productId": "Product Id",
+      "uPC": "U PC"
+    }
+  }
+}

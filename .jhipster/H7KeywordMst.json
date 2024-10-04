@@ -1,0 +1,27 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200602"
+  },
+  "applications": ["dbo"],
+  "entityTableName": "h_7_keyword_mst",
+  "fields": [
+    {
+      "fieldName": "h7Group",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "h7Keyword",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "h7keywordId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "iocGroup",
+      "fieldType": "String"
+    }
+  ],
+  "name": "H7KeywordMst",
+  "relationships": []
+}

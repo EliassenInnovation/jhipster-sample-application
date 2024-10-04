@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity OneWorldSyncProduct.
+    -->
+    <changeSet id="20241004200609-1" author="jhipster">
+        <createTable tableName="one_world_sync_product">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="added_sugars" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="added_sugar_uom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="allergen_keyword" type="${clobType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="allergens" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="brand_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="calories" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="calories_uom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="carbohydrates" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="carbohydrates_uom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="category_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="cholesterol" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="cholesterol_uom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="created_on" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="data_form" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="dietary_fiber" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="dietary_fiber_uom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="distributor" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="do_not_consider_product" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="extended_model" type="${clobType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="g_ln_number" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="g_tin" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="h_7" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="image" type="${clobType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="ingredients" type="${clobType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="is_active" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="is_approve" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="is_merge" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="is_product_sync" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="manufacturer" type="${clobType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="manufacturer_id" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="manufacturer_text_1_ws" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="modified_on" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="product_description" type="${clobType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="product_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="product_name" type="${clobType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="protein" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="protein_uom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="saturated_fat" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="serving" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="serving_uom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sodium" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sodium_uom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="storage_type_id" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="storage_type_name" type="${clobType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="sub_category_1_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sub_category_2_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sugar" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sugar_uom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sync_effective" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="sync_header_last_change" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="sync_item_reference_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sync_last_change" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="sync_publication" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="total_fat" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="trans_fat" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="u_pc" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="vendor" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20241004200609-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/one_world_sync_product.csv"
+                  separator=";"
+                  tableName="one_world_sync_product"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="added_sugars" type="string"/>
+            <column name="added_sugar_uom" type="string"/>
+            <column name="allergen_keyword" type="clob"/>
+            <column name="allergens" type="numeric"/>
+            <column name="brand_name" type="string"/>
+            <column name="calories" type="string"/>
+            <column name="calories_uom" type="string"/>
+            <column name="carbohydrates" type="string"/>
+            <column name="carbohydrates_uom" type="string"/>
+            <column name="category_name" type="string"/>
+            <column name="cholesterol" type="string"/>
+            <column name="cholesterol_uom" type="string"/>
+            <column name="created_on" type="date"/>
+            <column name="data_form" type="string"/>
+            <column name="dietary_fiber" type="string"/>
+            <column name="dietary_fiber_uom" type="string"/>
+            <column name="distributor" type="string"/>
+            <column name="do_not_consider_product" type="boolean"/>
+            <column name="extended_model" type="clob"/>
+            <column name="g_ln_number" type="string"/>
+            <column name="g_tin" type="string"/>
+            <column name="h_7" type="numeric"/>
+            <column name="image" type="clob"/>
+            <column name="ingredients" type="clob"/>
+            <column name="is_active" type="boolean"/>
+            <column name="is_approve" type="boolean"/>
+            <column name="is_merge" type="boolean"/>
+            <column name="is_product_sync" type="boolean"/>
+            <column name="manufacturer" type="clob"/>
+            <column name="manufacturer_id" type="numeric"/>
+            <column name="manufacturer_text_1_ws" type="string"/>
+            <column name="modified_on" type="date"/>
+            <column name="product_description" type="clob"/>
+            <column name="product_id" type="numeric"/>
+            <column name="product_name" type="clob"/>
+            <column name="protein" type="string"/>
+            <column name="protein_uom" type="string"/>
+            <column name="saturated_fat" type="string"/>
+            <column name="serving" type="string"/>
+            <column name="serving_uom" type="string"/>
+            <column name="sodium" type="string"/>
+            <column name="sodium_uom" type="string"/>
+            <column name="storage_type_id" type="numeric"/>
+            <column name="storage_type_name" type="clob"/>
+            <column name="sub_category_1_name" type="string"/>
+            <column name="sub_category_2_name" type="string"/>
+            <column name="sugar" type="string"/>
+            <column name="sugar_uom" type="string"/>
+            <column name="sync_effective" type="date"/>
+            <column name="sync_header_last_change" type="date"/>
+            <column name="sync_item_reference_id" type="string"/>
+            <column name="sync_last_change" type="date"/>
+            <column name="sync_publication" type="date"/>
+            <column name="total_fat" type="string"/>
+            <column name="trans_fat" type="string"/>
+            <column name="u_pc" type="string"/>
+            <column name="vendor" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

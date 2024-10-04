@@ -1,0 +1,32 @@
+{
+  "dboApp": {
+    "productManufacturerAllocation": {
+      "home": {
+        "title": "Product Manufacturer Allocations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Product Manufacturer Allocation",
+        "createOrEditLabel": "Create or edit a Product Manufacturer Allocation",
+        "search": "Search for Product Manufacturer Allocation",
+        "notFound": "No Product Manufacturer Allocations found"
+      },
+      "created": "A new Product Manufacturer Allocation is created with identifier {{ param }}",
+      "updated": "A Product Manufacturer Allocation is updated with identifier {{ param }}",
+      "deleted": "A Product Manufacturer Allocation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Product Manufacturer Allocation {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Manufacturer Allocation"
+      },
+      "id": "ID",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "isAllocated": "Is Allocated",
+      "manufactureId": "Manufacture Id",
+      "productId": "Product Id",
+      "productManufacturerAllocationId": "Product Manufacturer Allocation Id",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On"
+    }
+  }
+}

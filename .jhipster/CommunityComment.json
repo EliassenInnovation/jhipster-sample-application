@@ -1,0 +1,38 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200556"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "comment",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "commentByUserId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "communityCommentId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "communityPostId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "lastUpdatedOn",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "CommunityComment",
+  "relationships": []
+}

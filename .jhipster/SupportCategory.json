@@ -1,0 +1,18 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200637"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "supportCategoryId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "supportCategoryName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "SupportCategory",
+  "relationships": []
+}

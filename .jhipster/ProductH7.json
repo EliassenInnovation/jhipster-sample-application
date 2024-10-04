@@ -1,0 +1,35 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200620"
+  },
+  "applications": ["dbo"],
+  "entityTableName": "product_h_7",
+  "fields": [
+    {
+      "fieldName": "gtinUpc",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "h7KeywordId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "iOCGroup",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productH7Id",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "productName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "ProductH7",
+  "relationships": []
+}

@@ -1,0 +1,741 @@
+/*
+    Example Stuff
+*/
+
+application {
+  config {
+    baseName dbo
+    applicationType monolith
+    authenticationType jwt
+    prodDatabaseType mssql
+  }
+  entities *
+}
+
+entity AllergenMst {
+    AllergenGroup String
+    AllergenId Integer
+    AllergenName String
+}
+
+entity ApplicationValue {
+    ApplicationValueId Integer
+    Key String
+    ValueDate ZonedDateTime
+    ValueInt Integer
+    ValueLong Long
+    ValueString String
+}
+
+entity BlockReportPost {
+    BlockCategories TextBlob
+    BlockingReason TextBlob
+    PostBlockReportId UUID
+    PostId UUID
+    PostType String
+    RequestedBy Integer
+}
+
+entity Category {
+    CategoryCode String
+    CategoryId Integer
+    CategoryName String
+    CreatedBy Integer
+    CreatedOn LocalDate
+    IsActive Boolean
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+}
+
+entity CommunityComment {
+    Comment TextBlob
+    CommentByUserId Integer
+    CommunityCommentId UUID
+    CommunityPostId UUID
+    CreatedOn LocalDate
+    IsActive Boolean
+    LastUpdatedOn LocalDate
+}
+
+entity CommunityLikeMst {
+    CommunityLikeId UUID
+    CommunityPostId UUID
+    CreatedOn LocalDate
+    IsActive Boolean
+    IsLiked Boolean
+    LikedByUserId Integer
+}
+
+entity CommunityPost {
+    CommunityPostId UUID
+    CreatedBy Integer
+    CreatedOn LocalDate
+    Date LocalDate
+    Description TextBlob
+    IsActive Boolean
+    LastUpdatedBy Integer
+    LastUpdatedOn LocalDate
+    PostTypeId Integer
+    PrivacyTypeId Integer
+    SchoolDistrictId Integer
+    UserId Integer
+}
+
+entity CommunityPostTransactions {
+    AttachmentUrl TextBlob
+    CommunityPostId UUID
+    CommunityPostTransactionId UUID
+    CreatedBy Integer
+    CreatedOn LocalDate
+    IsActive Boolean
+    LastUpdatedBy Integer
+    LastUpdatedOn LocalDate
+}
+
+entity Distributor {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    DistributorCode String
+    DistributorID Integer
+    DistributorName String
+    IsActive Boolean
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+}
+
+entity ErrorLog {
+    CreatedOn LocalDate
+    ErrorId Integer
+    ErrorMessage TextBlob
+    ErrorPath TextBlob
+}
+
+entity H7KeywordMst {
+    H7Group String
+    H7Keyword String
+    H7keywordId Integer
+    IocGroup String
+}
+
+entity IocCategory {
+    IocCategoryColor String
+    IocCategoryId Integer
+    IocCategoryName String
+}
+
+entity LoginHistory {
+    ForgotPin Integer
+    IsActive Boolean
+    LoginDate LocalDate
+    LoginLogId Integer
+    LoginType String
+    LogOutDate LocalDate
+    UserId Integer
+}
+
+entity Manufacturer {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    Email String
+    FirstName String
+    GlnNumber String
+    IsActive Boolean
+    LastName String
+    Manufacturer String
+    ManufacturerId Integer
+    Password String
+    PhoneNumber String
+}
+
+entity MonthlyNumbers {
+    ActualMonthId Integer
+    CreatedOn LocalDate
+    Enrollment Integer
+    FreeAndReducedPercent Integer
+    ID Integer
+    IsActive Boolean
+    MealsServed Integer
+    ModifiedOn LocalDate
+    MonthId Integer
+    NumberOfDistricts Integer
+    NumberOfSites Integer
+    RegDate LocalDate
+    SchoolDistrictId Integer
+    Year String
+}
+
+entity MonthMst {
+    IsActive Boolean
+    MonthID Integer
+    MonthName String
+    Year String
+}
+
+entity Notification {
+    Content TextBlob
+    CreatedBy Integer
+    CreatedOn LocalDate
+    IsActive Boolean
+    NotificationId Integer
+    ReferenceId Integer
+    Type String
+    UserId Integer
+}
+
+entity OneWorldSyncProduct {
+    AddedSugars String
+    AddedSugarUom String
+    AllergenKeyword TextBlob
+    Allergens Integer
+    BrandName String
+    Calories String
+    CaloriesUom String
+    Carbohydrates String
+    CarbohydratesUom String
+    CategoryName String
+    Cholesterol String
+    CholesterolUOM String
+    CreatedOn LocalDate
+    DataForm String
+    DietaryFiber String
+    DietaryFiberUom String
+    Distributor String
+    DoNotConsiderProduct Boolean
+    ExtendedModel TextBlob
+    GLNNumber String
+    GTIN String
+    H7 Integer
+    Image TextBlob
+    Ingredients TextBlob
+    IsActive Boolean
+    IsApprove Boolean
+    IsMerge Boolean
+    IsProductSync Boolean
+    Manufacturer TextBlob
+    ManufacturerId Integer
+    ManufacturerText1Ws String
+    ModifiedOn LocalDate
+    ProductDescription TextBlob
+    ProductId Long
+    ProductName TextBlob
+    Protein String
+    ProteinUom String
+    SaturatedFat String
+    Serving String
+    ServingUom String
+    Sodium String
+    SodiumUom String
+    StorageTypeId Integer
+    StorageTypeName TextBlob
+    SubCategory1Name String
+    SubCategory2Name String
+    Sugar String
+    SugarUom String
+    SyncEffective LocalDate
+    SyncHeaderLastChange LocalDate
+    SyncItemReferenceId String
+    SyncLastChange LocalDate
+    SyncPublication LocalDate
+    TotalFat String
+    TransFat String
+    UPC String
+    Vendor String
+}
+
+entity PostTypes {
+    CreatedBy UUID
+    CreatedOn LocalDate
+    IsActive Boolean
+    LastUpdatedBy UUID
+    LastUpdatedOn LocalDate
+    PostType String
+    PostTypeId Integer
+}
+
+entity PrivacyType {
+    PrivacyTypeId Integer
+    PrivacyTypeName String
+}
+
+entity ProductActivityHistory {
+    ActivityId Integer
+    ActivityType String
+    CreatedBy Integer
+    CreatedOn LocalDate
+    Date LocalDate
+    IsActive Boolean
+    ProductId Long
+    SuggestedProductId Integer
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+}
+
+entity ProductAllergen {
+    AllergenId Integer
+    AllergenGroup String
+    AllergenName String
+    Description TextBlob
+    GTIN String
+    GTINUPC String
+    ProductAllergenId Integer
+    ProductId Long
+    UPC String
+}
+
+entity ProductAllergenBak {
+    AllergenId Integer
+    AllergenGroup String
+    AllergenName String
+    Description TextBlob
+    GTIN String
+    GTINUPC String
+    ProductAllergenId Integer
+    ProductId Long
+    UPC String
+}
+
+entity ProductBeforeApprove {
+    AddedSugar Double
+    AddedSugarUom String
+    AllergenKeywords TextBlob
+    BrandName String
+    Calories Double
+    CaloriesUom String
+    Carbohydrates Double
+    CarbohydratesUom String
+    CategoryId Integer
+    Cholesterol Double
+    CholesterolUOM String
+    CreatedBy Integer
+    CreatedOn LocalDate
+    Description TextBlob
+    DietaryFiber Double
+    DietaryFiberUom String
+    DistributorId TextBlob
+    GTIN TextBlob
+    Ingredients TextBlob
+    IocCategoryId Integer
+    IsActive Boolean
+    IsMerge Boolean
+    ManufacturerId Integer
+    ManufacturerProductCode String
+    MergeDate LocalDate
+    ProductId Long
+    ProductLabelPdfUrl TextBlob
+    ProductName String
+    Protein Double
+    ProteinUom String
+    SaturatedFat Double
+    Serving Double
+    ServingUom String
+    Sodium Double
+    SodiumUom String
+    StorageTypeId Integer
+    SubCategoryId Integer
+    Sugar Double
+    SugarUom String
+    TotalFat Double
+    TransFat Double
+    UPC TextBlob
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+    Vendor String
+}
+
+entity ProductChangeHistory {
+    CreatedBy Integer
+    DateCreated LocalDate
+    HistoryId UUID
+    IocCategoryId Integer
+    IsActive Boolean
+    ProductId Long
+    SchoolDistrictId Integer
+    SelectionType String
+}
+
+entity ProductDistributorAllocation {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    DistributorId Integer
+    IsAllocated Boolean
+    ProductDistributorAllocationId UUID
+    ProductId Long
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+}
+
+entity ProductDistrictAllocation {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    IsAllocated Boolean
+    ProductDistrictAllocationId UUID
+    ProductId Long
+    SchoolDistrictId Integer
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+}
+
+entity ProductGtinAllocation {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    GTIN String
+    IsActive Boolean
+    ProductGtinId Integer
+    ProductId Long
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+}
+
+entity ProductH7 {
+    GtinUpc String
+    H7KeywordId Integer
+    IOCGroup String
+    ProductH7Id Integer
+    ProductId Long
+    ProductName String
+}
+
+entity ProductH7New {
+    GtinUpc String
+    H7KeywordId Integer
+    IOCGroup String
+    ProductH7Id Integer
+    ProductId Long
+    ProductName String
+}
+
+entity ProductH7Old {
+    GtinUpc String
+    H7KeywordId Integer
+    IOCGroup String
+    ProductH7Id Integer
+    ProductId Long
+    ProductName String
+}
+
+entity ProductImage {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    ImageURL String
+    IsActive Boolean
+    ProductId Long
+    ProductImageId Integer
+}
+
+entity ProductImageBeforeApprove {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    ImageURL String
+    IsActive Boolean
+    ProductId Long
+    ProductImageId Integer
+}
+
+entity ProductManufacturerAllocation {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    IsAllocated Boolean
+    ManufactureId Integer
+    ProductId Long
+    ProductManufacturerAllocationId UUID
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+}
+
+entity ProductMst {
+    AddedSugar Double
+    AddedSugarUom String
+    AllergenKeywords TextBlob
+    BrandName String
+    Calories Double
+    CaloriesUom String
+    Carbohydrates Double
+    CarbohydratesUom String
+    CategoryId Integer
+    Cholesterol Double
+    CholesterolUOM String
+    CreatedBy Integer
+    CreatedOn LocalDate
+    Description TextBlob
+    DietaryFiber Double
+    DietaryFiberUom String
+    GTIN String
+    Ingredients TextBlob
+    IOCCategoryId Integer
+    IsActive Boolean
+    IsMerge Boolean
+    IsOneWorldSyncProduct Boolean
+    ManufacturerId Integer
+    ManufacturerProductCode String
+    ManufacturerText1Ws String
+    MergeDate LocalDate
+    ProductId Long
+    ProductLabelPdfUrl TextBlob
+    ProductName String
+    Protein Double
+    ProteinUom String
+    SaturatedFat Double
+    Serving Double
+    ServingUom String
+    Sodium Double
+    SodiumUom String
+    StorageTypeId Integer
+    SubCategoryId Integer
+    Sugar Double
+    SugarUom String
+    TotalFat Double
+    TransFat Double
+    UPC String
+    UPCGTIN String
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+    Vendor String
+}
+
+entity ProductsToUpdate {
+    MaxGLNCode String
+    MaxManufacturerID Integer
+    ProductId Long
+}
+
+entity ProductUpcAllocation {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    IsActive Boolean
+    ProductId Long
+    ProductUpcId Integer
+    UPC String
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+}
+
+entity ReplacedProducts {
+    IsActive Boolean
+    ProductId Long
+    ReplacedByUserId Integer
+    ReplacedId Integer
+    ReplacedProductId Long
+    ReplacementDate LocalDate
+    SchoolDistrictId Integer
+}
+
+entity RoleMst {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    IsActive Boolean
+    ParentRoleId Integer
+    RoleId Integer
+    RoleName String
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+}
+
+entity SchoolDistrict {
+    City String
+    ContractCompany String
+    Country String
+    CreatedBy Integer
+    CreatedOn LocalDate
+    DistrictLogo TextBlob
+    DistrictName String
+    Email String
+    FoodServiceOptions String
+    IsActive Boolean
+    LastUpdatedBy Integer
+    LastUpdatedOn LocalDate
+    PhoneNumber String
+    SchoolDistrictId Integer
+    SiteCode String
+    State Integer
+}
+
+entity SetMappings {
+    ID Integer
+    OneWorldValue String
+    ProductValue String
+    SetName String
+}
+
+entity StateInfo {
+    CreatedOn LocalDate
+    IsActive Boolean
+    StateId Integer
+    StateName String
+}
+
+entity StorageTypes {
+    StorageTypeId Integer
+    StorageTypeName String
+}
+
+entity SubCategory {
+    CategoryId Integer
+    CreatedBy Integer
+    CreatedOn LocalDate
+    IsActive Boolean
+    SubCategoryCode String
+    SubCategoryId Integer
+    SubCategoryName String
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+}
+
+entity SuggestedProducts {
+    IsActive Boolean
+    IsApprove Boolean
+    ProductId Long
+    SuggestedByDistrict Integer
+    SuggestedByUserId Integer
+    SuggestedProductId Long
+    SuggestionDate LocalDate
+    SuggestionId Integer
+}
+
+entity SupportCategory {
+    SupportCategoryId Integer
+    SupportCategoryName String
+}
+
+entity SupportTicketMst {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    Email String
+    IsActive Boolean
+    IsWithOutLogin Boolean
+    LastUpdatedBy Integer
+    LastUpdatedOn LocalDate
+    Priority String
+    SchoolDistrictId Integer
+    Status String
+    subject String
+    SupportCategoryId Integer
+    TicketId Integer
+    TicketReferenceNumber Integer
+    UserId Integer
+    UserName String
+}
+
+entity SupportTicketTransaction {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    Description TextBlob
+    FileExtension String
+    FileName String
+    FilePath String
+    FileSize Integer
+    IsActive Boolean
+    IsSentByFigSupport Boolean
+    LastUpdatedBy Integer
+    LastUpdatedOn LocalDate
+    TicketId Integer
+    TicketTransactionId Integer
+    UserId Integer
+}
+
+entity USDAUpdateMst {
+    AddedSugarsgperServing String
+    AllAllergens String
+    BrandName String
+    CalciumCamgperServing Double
+    CalorieskcalperServing String
+    CholesterolmgperServing String
+    CNCredited String
+    CNCrediting String
+    CNExpirationDate String
+    CNLabelDocument String
+    CNLabelStatement TextBlob
+    CNProductIdentification String
+    CNQualified String
+    CNQualifierCode String
+    DietaryFibergperServing String
+    downloaded LocalDate
+    Eggs String
+    Fish String
+    FoodCategory String
+    functionalname String
+    gtin String
+    Halal String
+    HierarchicalPlacement String
+    InformationProvider String
+    ingredientsenglish TextBlob
+    IronFemgperServing String
+    Kosher String
+    lastupdated LocalDate
+    longdescription String
+    Milk String
+    NutrientFormatTypeCodeReferenceCode String
+    NutrientQuantityBasisTypeCode String
+    NutrientQuantityBasisUnitofMeasure String
+    NutrientQuantityBasisValue String
+    Nutrientsperservingcalculatedfrombymeasurereportedamount Boolean
+    Peanuts String
+    PFSCreditableIngredientTypeCode String
+    PFSDocument String
+    PFSTotalCreditableIngredientAmount String
+    PFSTotalPortionWeight String
+    PotassiumKmgperServing String
+    preparationStateCode String
+    ProductFormulationStatement String
+    ProteingperServing String
+    SaturatedFatgperServing Double
+    ServingDescription String
+    ServingSize String
+    ServingUnitofMeasure String
+    ServingsPerCase String
+    Sesame String
+    Shellfish String
+    shortdescription String
+    SodiummgperServing String
+    Soybeans String
+    SugarsgperServing String
+    TotalCarbohydrategperServing Double
+    TotalFatgperServing String
+    TradeChannels String
+    TransFatgperServing String
+    TreeNuts String
+    USDAFoodsMaterialCode String
+    USDAFoodsProductsDescription String
+    VendorName String
+    VendorID String
+    VitaminDmcgperServing String
+    Wheat String
+}
+
+entity UserDistrictAllocation {
+    CreatedBy Integer
+    CreatedOn LocalDate
+    IsAllocated Boolean
+    SchoolDistrictId Integer
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+    UserDistrictAllocationId UUID
+    UserId Integer
+}
+
+entity UserMst {
+    AddressLine1 String
+    AddressLine2 String
+    City String
+    Country String
+    CoverImage TextBlob
+    CreateBy Integer
+    CreatedOn LocalDate
+    Email String
+    FirstName String
+    IsActive Boolean
+    LastName String
+    ManufacturerId Integer
+    Mobile String
+    ObjectId String
+    Password String
+    ProfileImage TextBlob
+    RoleId Integer
+    SchoolDistrictId Integer
+    State Integer
+    UpdatedBy Integer
+    UpdatedOn LocalDate
+    UserId Integer
+    ZipCode String
+}
+
+

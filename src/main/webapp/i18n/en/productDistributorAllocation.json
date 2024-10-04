@@ -1,0 +1,32 @@
+{
+  "dboApp": {
+    "productDistributorAllocation": {
+      "home": {
+        "title": "Product Distributor Allocations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Product Distributor Allocation",
+        "createOrEditLabel": "Create or edit a Product Distributor Allocation",
+        "search": "Search for Product Distributor Allocation",
+        "notFound": "No Product Distributor Allocations found"
+      },
+      "created": "A new Product Distributor Allocation is created with identifier {{ param }}",
+      "updated": "A Product Distributor Allocation is updated with identifier {{ param }}",
+      "deleted": "A Product Distributor Allocation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Product Distributor Allocation {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Distributor Allocation"
+      },
+      "id": "ID",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "distributorId": "Distributor Id",
+      "isAllocated": "Is Allocated",
+      "productDistributorAllocationId": "Product Distributor Allocation Id",
+      "productId": "Product Id",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On"
+    }
+  }
+}

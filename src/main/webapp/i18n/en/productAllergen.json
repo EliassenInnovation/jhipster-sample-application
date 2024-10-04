@@ -1,0 +1,33 @@
+{
+  "dboApp": {
+    "productAllergen": {
+      "home": {
+        "title": "Product Allergens",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Product Allergen",
+        "createOrEditLabel": "Create or edit a Product Allergen",
+        "search": "Search for Product Allergen",
+        "notFound": "No Product Allergens found"
+      },
+      "created": "A new Product Allergen is created with identifier {{ param }}",
+      "updated": "A Product Allergen is updated with identifier {{ param }}",
+      "deleted": "A Product Allergen is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Product Allergen {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Allergen"
+      },
+      "id": "ID",
+      "allergenId": "Allergen Id",
+      "allergenGroup": "Allergen Group",
+      "allergenName": "Allergen Name",
+      "description": "Description",
+      "gTIN": "G TIN",
+      "gTINUPC": "G TINUPC",
+      "productAllergenId": "Product Allergen Id",
+      "productId": "Product Id",
+      "uPC": "U PC"
+    }
+  }
+}

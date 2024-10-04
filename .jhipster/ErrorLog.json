@@ -1,0 +1,26 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200601"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "errorId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "errorMessage",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "errorPath",
+      "fieldType": "TextBlob"
+    }
+  ],
+  "name": "ErrorLog",
+  "relationships": []
+}

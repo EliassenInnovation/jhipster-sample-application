@@ -1,0 +1,40 @@
+{
+  "dboApp": {
+    "schoolDistrict": {
+      "home": {
+        "title": "School Districts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new School District",
+        "createOrEditLabel": "Create or edit a School District",
+        "search": "Search for School District",
+        "notFound": "No School Districts found"
+      },
+      "created": "A new School District is created with identifier {{ param }}",
+      "updated": "A School District is updated with identifier {{ param }}",
+      "deleted": "A School District is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete School District {{ id }}?"
+      },
+      "detail": {
+        "title": "School District"
+      },
+      "id": "ID",
+      "city": "City",
+      "contractCompany": "Contract Company",
+      "country": "Country",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "districtLogo": "District Logo",
+      "districtName": "District Name",
+      "email": "Email",
+      "foodServiceOptions": "Food Service Options",
+      "isActive": "Is Active",
+      "lastUpdatedBy": "Last Updated By",
+      "lastUpdatedOn": "Last Updated On",
+      "phoneNumber": "Phone Number",
+      "schoolDistrictId": "School District Id",
+      "siteCode": "Site Code",
+      "state": "State"
+    }
+  }
+}

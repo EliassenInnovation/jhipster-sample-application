@@ -1,0 +1,30 @@
+{
+  "dboApp": {
+    "productH7": {
+      "home": {
+        "title": "Product H 7 S",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Product H 7",
+        "createOrEditLabel": "Create or edit a Product H 7",
+        "search": "Search for Product H 7",
+        "notFound": "No Product H 7 S found"
+      },
+      "created": "A new Product H 7 is created with identifier {{ param }}",
+      "updated": "A Product H 7 is updated with identifier {{ param }}",
+      "deleted": "A Product H 7 is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Product H 7 {{ id }}?"
+      },
+      "detail": {
+        "title": "Product H 7"
+      },
+      "id": "ID",
+      "gtinUpc": "Gtin Upc",
+      "h7KeywordId": "H 7 Keyword Id",
+      "iOCGroup": "I OC Group",
+      "productH7Id": "Product H 7 Id",
+      "productId": "Product Id",
+      "productName": "Product Name"
+    }
+  }
+}

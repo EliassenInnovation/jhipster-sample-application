@@ -1,0 +1,26 @@
+{
+  "dboApp": {
+    "storageTypes": {
+      "home": {
+        "title": "Storage Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Storage Types",
+        "createOrEditLabel": "Create or edit a Storage Types",
+        "search": "Search for Storage Types",
+        "notFound": "No Storage Types found"
+      },
+      "created": "A new Storage Types is created with identifier {{ param }}",
+      "updated": "A Storage Types is updated with identifier {{ param }}",
+      "deleted": "A Storage Types is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Storage Types {{ id }}?"
+      },
+      "detail": {
+        "title": "Storage Types"
+      },
+      "id": "ID",
+      "storageTypeId": "Storage Type Id",
+      "storageTypeName": "Storage Type Name"
+    }
+  }
+}

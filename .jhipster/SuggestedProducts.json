@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200636"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isApprove",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "suggestedByDistrict",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "suggestedByUserId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "suggestedProductId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "suggestionDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "suggestionId",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "SuggestedProducts",
+  "relationships": []
+}

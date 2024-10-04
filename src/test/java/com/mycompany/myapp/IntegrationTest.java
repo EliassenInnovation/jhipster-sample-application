@@ -16,7 +16,7 @@ import org.springframework.boot.test.context.SpringBootTest;
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-@SpringBootTest(classes = { JhipsterSampleApplicationApp.class, JacksonConfiguration.class, AsyncSyncConfiguration.class })
+@SpringBootTest(classes = { DboApp.class, JacksonConfiguration.class, AsyncSyncConfiguration.class })
 @EmbeddedElasticsearch
 @EmbeddedSQL
 @EmbeddedKafka

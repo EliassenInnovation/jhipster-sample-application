@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200628"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "createdBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "productUpcId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "uPC",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "ProductUpcAllocation",
+  "relationships": []
+}

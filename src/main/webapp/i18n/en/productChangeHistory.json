@@ -1,0 +1,32 @@
+{
+  "dboApp": {
+    "productChangeHistory": {
+      "home": {
+        "title": "Product Change Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Product Change History",
+        "createOrEditLabel": "Create or edit a Product Change History",
+        "search": "Search for Product Change History",
+        "notFound": "No Product Change Histories found"
+      },
+      "created": "A new Product Change History is created with identifier {{ param }}",
+      "updated": "A Product Change History is updated with identifier {{ param }}",
+      "deleted": "A Product Change History is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Product Change History {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Change History"
+      },
+      "id": "ID",
+      "createdBy": "Created By",
+      "dateCreated": "Date Created",
+      "historyId": "History Id",
+      "iocCategoryId": "Ioc Category Id",
+      "isActive": "Is Active",
+      "productId": "Product Id",
+      "schoolDistrictId": "School District Id",
+      "selectionType": "Selection Type"
+    }
+  }
+}

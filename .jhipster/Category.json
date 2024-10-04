@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200555"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "categoryCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoryId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "categoryName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "Category",
+  "relationships": []
+}

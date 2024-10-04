@@ -1,0 +1,26 @@
+{
+  "dboApp": {
+    "privacyType": {
+      "home": {
+        "title": "Privacy Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Privacy Type",
+        "createOrEditLabel": "Create or edit a Privacy Type",
+        "search": "Search for Privacy Type",
+        "notFound": "No Privacy Types found"
+      },
+      "created": "A new Privacy Type is created with identifier {{ param }}",
+      "updated": "A Privacy Type is updated with identifier {{ param }}",
+      "deleted": "A Privacy Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Privacy Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Privacy Type"
+      },
+      "id": "ID",
+      "privacyTypeId": "Privacy Type Id",
+      "privacyTypeName": "Privacy Type Name"
+    }
+  }
+}

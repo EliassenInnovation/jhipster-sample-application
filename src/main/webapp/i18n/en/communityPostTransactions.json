@@ -1,0 +1,32 @@
+{
+  "dboApp": {
+    "communityPostTransactions": {
+      "home": {
+        "title": "Community Post Transactions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Community Post Transactions",
+        "createOrEditLabel": "Create or edit a Community Post Transactions",
+        "search": "Search for Community Post Transactions",
+        "notFound": "No Community Post Transactions found"
+      },
+      "created": "A new Community Post Transactions is created with identifier {{ param }}",
+      "updated": "A Community Post Transactions is updated with identifier {{ param }}",
+      "deleted": "A Community Post Transactions is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Community Post Transactions {{ id }}?"
+      },
+      "detail": {
+        "title": "Community Post Transactions"
+      },
+      "id": "ID",
+      "attachmentUrl": "Attachment Url",
+      "communityPostId": "Community Post Id",
+      "communityPostTransactionId": "Community Post Transaction Id",
+      "createdBy": "Created By",
+      "createdOn": "Created On",
+      "isActive": "Is Active",
+      "lastUpdatedBy": "Last Updated By",
+      "lastUpdatedOn": "Last Updated On"
+    }
+  }
+}

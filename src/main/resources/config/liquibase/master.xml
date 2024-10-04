@@ -3,14 +3,65 @@
     xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
-    <property name="now" value="current_timestamp" dbms="postgresql"/>
-    <property name="floatType" value="float4" dbms="postgresql"/>
-    <property name="clobType" value="clob" dbms="postgresql"/>
-    <property name="blobType" value="blob" dbms="postgresql"/>
-    <property name="uuidType" value="uuid" dbms="postgresql"/>
-    <property name="datetimeType" value="datetime" dbms="postgresql"/>
+    <property name="now" value="GETDATE()" dbms="mssql"/>
+    <property name="floatType" value="float" dbms="mssql"/>
+    <property name="clobType" value="clob" dbms="mssql"/>
+    <property name="blobType" value="blob" dbms="mssql"/>
+    <property name="uuidType" value="uuid" dbms="mssql"/>
+    <property name="datetimeType" value="datetime" dbms="mssql"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200552_added_entity_AllergenMst.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200553_added_entity_ApplicationValue.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200554_added_entity_BlockReportPost.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200555_added_entity_Category.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200556_added_entity_CommunityComment.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200557_added_entity_CommunityLikeMst.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200558_added_entity_CommunityPost.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200559_added_entity_CommunityPostTransactions.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200600_added_entity_Distributor.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200601_added_entity_ErrorLog.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200602_added_entity_H7KeywordMst.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200603_added_entity_IocCategory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200604_added_entity_LoginHistory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200605_added_entity_Manufacturer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200606_added_entity_MonthlyNumbers.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200607_added_entity_MonthMst.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200608_added_entity_Notification.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200609_added_entity_OneWorldSyncProduct.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200610_added_entity_PostTypes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200611_added_entity_PrivacyType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200612_added_entity_ProductActivityHistory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200613_added_entity_ProductAllergen.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200614_added_entity_ProductAllergenBak.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200615_added_entity_ProductBeforeApprove.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200616_added_entity_ProductChangeHistory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200617_added_entity_ProductDistributorAllocation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200618_added_entity_ProductDistrictAllocation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200619_added_entity_ProductGtinAllocation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200620_added_entity_ProductH7.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200621_added_entity_ProductH7New.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200622_added_entity_ProductH7Old.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200623_added_entity_ProductImage.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200624_added_entity_ProductImageBeforeApprove.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200625_added_entity_ProductManufacturerAllocation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200626_added_entity_ProductMst.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200627_added_entity_ProductsToUpdate.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200628_added_entity_ProductUpcAllocation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200629_added_entity_ReplacedProducts.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200630_added_entity_RoleMst.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200631_added_entity_SchoolDistrict.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200632_added_entity_SetMappings.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200633_added_entity_StateInfo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200634_added_entity_StorageTypes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200635_added_entity_SubCategory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200636_added_entity_SuggestedProducts.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200637_added_entity_SupportCategory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200638_added_entity_SupportTicketMst.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200639_added_entity_SupportTicketTransaction.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200640_added_entity_USDAUpdateMst.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200641_added_entity_UserDistrictAllocation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20241004200642_added_entity_UserMst.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->

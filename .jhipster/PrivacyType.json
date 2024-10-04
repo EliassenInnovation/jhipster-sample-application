@@ -1,0 +1,18 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200611"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "privacyTypeId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "privacyTypeName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "PrivacyType",
+  "relationships": []
+}

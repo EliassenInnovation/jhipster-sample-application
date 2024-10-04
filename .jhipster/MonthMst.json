@@ -1,0 +1,26 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200607"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "monthID",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "monthName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "year",
+      "fieldType": "String"
+    }
+  ],
+  "name": "MonthMst",
+  "relationships": []
+}

@@ -1,0 +1,11 @@
+id;attachment_url;community_post_id;community_post_transaction_id;created_by;created_on;is_active;last_updated_by;last_updated_on
+1;../fake-data/blob/hipster.txt;79c2da16-e1af-4449-b939-44ace6fc12d6;acafa99a-b0c9-45ce-92cf-ef602d6c48a9;30415;2024-10-04;true;9539;2024-10-04
+2;../fake-data/blob/hipster.txt;39f2f851-2042-40fc-bff2-67e0badf1297;7a941d33-43ab-4bbe-a0bf-b58b3cd29e0b;4205;2024-10-04;false;27778;2024-10-04
+3;../fake-data/blob/hipster.txt;a0ce4db8-85d6-47c7-87b4-fbb0007b788f;b92d325e-12c9-4683-a02a-dd386c0fc758;5880;2024-10-04;false;23996;2024-10-04
+4;../fake-data/blob/hipster.txt;c4826b91-ba02-4e19-a907-fb259aca5324;ac19b6da-cc5f-48c7-963e-c1bb139a1ebb;32694;2024-10-04;false;18473;2024-10-04
+5;../fake-data/blob/hipster.txt;6c92949e-18b5-4480-ab6b-4b3f66d573ec;6c61412b-6962-4410-980f-52243353da1b;1240;2024-10-04;true;5138;2024-10-03
+6;../fake-data/blob/hipster.txt;d6641168-d155-49ec-b34f-019b7aef148e;f7ededbb-aaa7-49e0-afb4-fa63c2cee17d;28414;2024-10-04;false;7402;2024-10-04
+7;../fake-data/blob/hipster.txt;f3518c7b-fe37-4ddb-9cb7-d09d5683cac1;a86ed3f4-99d1-4e00-af86-85cc993ef197;30139;2024-10-03;false;22274;2024-10-04
+8;../fake-data/blob/hipster.txt;3a194cfc-6c5f-4f9f-989a-b39eb24a4889;253e1d22-3b39-41d5-adaf-100dc9503d0c;3392;2024-10-04;false;9182;2024-10-04
+9;../fake-data/blob/hipster.txt;e0589cc2-c7d7-482e-9e87-556584564cb1;df976ce9-69ff-4353-a241-f77f73272928;8888;2024-10-04;false;8965;2024-10-04
+10;../fake-data/blob/hipster.txt;3e825808-3113-4abd-9a16-e75ee7d552b4;6eb8f4c0-2219-4a8d-aa79-29935e8ae3d3;14421;2024-10-04;false;1189;2024-10-04

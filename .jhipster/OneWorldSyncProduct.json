@@ -1,0 +1,238 @@
+{
+  "annotations": {
+    "changelogDate": "20241004200609"
+  },
+  "applications": ["dbo"],
+  "fields": [
+    {
+      "fieldName": "addedSugars",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "addedSugarUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "allergenKeyword",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "allergens",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "brandName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "calories",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "caloriesUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "carbohydrates",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "carbohydratesUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoryName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cholesterol",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cholesterolUOM",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dataForm",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dietaryFiber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dietaryFiberUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "distributor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "doNotConsiderProduct",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "extendedModel",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "gLNNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "gTIN",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "h7",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "ingredients",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isApprove",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isMerge",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isProductSync",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "manufacturer",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "manufacturerId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "manufacturerText1Ws",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "productDescription",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "productName",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "protein",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "proteinUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "saturatedFat",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "serving",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "servingUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sodium",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sodiumUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "storageTypeId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "storageTypeName",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "subCategory1Name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "subCategory2Name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sugar",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sugarUom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "syncEffective",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "syncHeaderLastChange",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "syncItemReferenceId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "syncLastChange",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "syncPublication",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "totalFat",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "transFat",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "uPC",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "vendor",
+      "fieldType": "String"
+    }
+  ],
+  "name": "OneWorldSyncProduct",
+  "relationships": []
+}

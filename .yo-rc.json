@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "DemoAddDotNet",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-dotnetcore",
+        "version": "4.1.0"
+      }
+    ],
+    "clientFramework": "react",
+    "clientTestFrameworks": [],
+    "clientTheme": "none",
+    "cqrsEnabled": true,
+    "creationTimestamp": 1728313007697,
+    "databaseType": "mssql",
+    "devServerPort": 9060,
+    "enableTranslation": true,
+    "entities": [],
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "YmE4ODRiMzc3MTEyZDMyYzdiZGJkMWVhMzc0MWQ4MTZjNTI3YjFlYmRlOWRlMDI3ZmU4YWRkZTcwZjFiMmY4YzJjNjM5MmQ4MDc2ZGFjNTgzYzk5ZDc2ZWRjMzc0NjcwYWE1Nw==",
+    "languages": ["en"],
+    "microfrontend": null,
+    "microfrontends": [],
+    "namespace": "DemoAddDotNet",
+    "nativeLanguage": "en",
+    "serverPort": "5000",
+    "testFrameworks": [],
+    "withAdminUi": true,
+    "withTerraformAzureScripts": false
+  }
+}
